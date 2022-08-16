@@ -1059,8 +1059,7 @@
             Discreetly kill your mark in this town. The more well-known you are, for either good or evil, the harder pulling this off will be...<br>
             Gives progress equal to (Sqrt(Practical) + Thievery + Assassin) * Stat/1000 * Sqrt(Completions/100) / Abs(reputation) / hearts^2.<br>
             Rewards a heart.
-            ]]></tooltip>
-        </assassin>
+            ]]></tooltip
         <assassinz0>
 		    <story_1><![CDATA[<b>1 Assassinated in Beginnersville:</b>⮀ His name was Ethan, you met him on your fifteenth loop. Always seemed to be getting into some sort of trouble. You ambush him as he strolls down an alley and carve out his heart before he knows what happened. He'll be fine next loop, you tell yourself.]]></story_1>
         </assassinz0>
@@ -1085,6 +1084,7 @@
         <assassinz7>
             <story_1><![CDATA[<b>1 Assassinated in Commerenceville:</b>⮀ Last task on the list and there are a ton of corrupted people here, plus the assassnation guild is here to collect all the hearts you gotten.]]></story_1>
         </assassinz7>
+		</assassin>
         <!--ruins-->
         <ruinsZ1>
             <label>Ruins</label>
