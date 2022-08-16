@@ -1045,7 +1045,7 @@
             Cannot re-survey completed zones.<br>
             Requires a map for each action.<br>
             Currently granting <div class='surveySkill'></div> exp per action.
-            ]></tooltip>
+            ]]></tooltip>
 		<story_1><![CDATA[<b>20% World Survey:</b>⮀ You decide it is time to discover the world. One of the explorers decided to come on the journey around the world their name is Dora, the journey is long but so worth.]]></story_1>
 		<story_2><![CDATA[<b>40% World Survey:</b>⮀ Crazy how discovering the world over again is shedding a new light on the world, new items you never seen have just been out of place.]]></story_2>
 		<story_3><![CDATA[<b>60% World Survey:</b>⮀ Nobody is stopping you from exploring more and more, it feels nice. At least the view is spectacular!]]></story_3>
