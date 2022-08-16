@@ -1085,7 +1085,6 @@
         <assassinz7>
             <story_1><![CDATA[<b>1 Assassinated in Commerenceville:</b>⮀ Last task on the list and there are a ton of corrupted people here, plus the assassnation guild is here to collect all the hearts you gotten.]]></story_1>
         </assassinz7>
-		</assassin>
         <!--ruins-->
         <ruinsZ1>
             <label>Ruins</label>
@@ -1093,9 +1092,9 @@
             <tooltip><![CDATA[
             As you've explored, you've found a number of old ruins scattered around. It's probably worth your time to explore them.
             ]]></tooltip>
-		<story_1><![CDATA[<b>10% delved:</b>⮀ You decide to explore the ruins in the Forest and notice some weird looking rocks, wonder what they do.]]</story_1>
-		<story_2><![CDATA[<b>50% delved:</b>⮀ After investgating these weird looking rocks you notice they are cubical and are heavy, looks like they are dusty from the time they have been sitting here.]]</story_2>
-		<story_3><![CDATA[<b>100% delved:</b>⮀ You have discover everything in these ruins, and notice that there are so many cubical stones lying everywhere like a massive battle happend.]]</story_3>
+		<story_1><![CDATA[<b>10% delved:</b>⮀ You decide to explore the ruins in the Forest and notice some weird looking rocks, wonder what they do.]]></story_1>
+		<story_2><![CDATA[<b>50% delved:</b>⮀ After investgating these weird looking rocks you notice they are cubical and are heavy, looks like they are dusty from the time they have been sitting here.]]></story_2>
+		<story_3><![CDATA[<b>100% delved:</b>⮀ You have discover everything in these ruins, and notice that there are so many cubical stones lying everywhere like a massive battle happend.]]></story_3>
         </ruinsZ1>
         <ruinsZ3>
             <label>Ruins</label>
@@ -1103,9 +1102,9 @@
             <tooltip><![CDATA[
             As you've explored, you've found a number of old ruins scattered around. It's probably worth your time to explore them.
             ]]></tooltip>
-		<story_1><![CDATA[<b>10% delved:</b>⮀ You decide to explore the ruins in the Mt. Olympus and notice the same cubical rocks, wonder what they do.]]</story_1>
-		<story_2><![CDATA[<b>50% delved:</b>⮀ There is a stone with some writing, with your high intellegent you might be able to read this strange language.]]</story_2>
-		<story_3><![CDATA[<b>100% delved:</b>⮀ After looking around the ruins it looks like there is a weapon rusted of some sort that looks like one of the Valkeries used, wonder what really happened.]]</story_3>
+		<story_1><![CDATA[<b>10% delved:</b>⮀ You decide to explore the ruins in the Mt. Olympus and notice the same cubical rocks, wonder what they do.]]></story_1>
+		<story_2><![CDATA[<b>50% delved:</b>⮀ There is a stone with some writing, with your high intellegent you might be able to read this strange language.]]></story_2>
+		<story_3><![CDATA[<b>100% delved:</b>⮀ After looking around the ruins it looks like there is a weapon rusted of some sort that looks like one of the Valkeries used, wonder what really happened.]]></story_3>
         </ruinsZ3>
         <ruinsZ5>
             <label>Ruins</label>
@@ -1113,9 +1112,9 @@
             <tooltip><![CDATA[
             As you've explored, you've found a number of old ruins scattered around. It's probably worth your time to explore them.
             ]]></tooltip>
-		<story_1><![CDATA[<b>10% delved:</b>⮀ You decide to explore the ruins in the Startington and and notice the same dusty cubical rocks, wonder what they do.]]</story_1>
-		<story_2><![CDATA[<b>50% delved:</b>⮀ After deciphering the text on this stone block, You can see some of the text since the rest has corroded over time. ]]</story_2>
-		<story_3><![CDATA[<b>100% delved:</b>⮀ The text explains that the Valkeries started a war that lasted for a month, after a month of fighting they finally declared peace. Who did they fight against???]]</story_3>
+		<story_1><![CDATA[<b>10% delved:</b>⮀ You decide to explore the ruins in the Startington and and notice the same dusty cubical rocks, wonder what they do.]]></story_1>
+		<story_2><![CDATA[<b>50% delved:</b>⮀ After deciphering the text on this stone block, You can see some of the text since the rest has corroded over time. ]]></story_2>
+		<story_3><![CDATA[<b>100% delved:</b>⮀ The text explains that the Valkeries started a war that lasted for a month, after a month of fighting they finally declared peace. Who did they fight against???]]></story_3>
         </ruinsZ5>
         <ruinsZ6>
             <label>Ruins</label>
@@ -1123,9 +1122,9 @@
             <tooltip><![CDATA[
             As you've explored, you've found a number of old ruins scattered around. It's probably worth your time to explore them.
             ]]></tooltip>
-		<story_1><![CDATA[<b>10% delved:</b>⮀ You decide to explore the ruins in the Jungle Path and and notice the same dusty and heavy cubical rocks, wonder what they do.]]</story_1>
-		<story_2><![CDATA[<b>50% delved:</b>⮀ You notice a god weapon on the floor in the middle of this ruins, almost like they left this here on purpose.]]</story_2>
-		<story_3><![CDATA[<b>100% delved:</b>⮀ Looking at the weapon has a small text that says, war has ended and this weapon is layed to rest. Did the gods fight the Valkeries???]]</story_3>
+		<story_1><![CDATA[<b>10% delved:</b>⮀ You decide to explore the ruins in the Jungle Path and and notice the same dusty and heavy cubical rocks, wonder what they do.]]></story_1>
+		<story_2><![CDATA[<b>50% delved:</b>⮀ You notice a god weapon on the floor in the middle of this ruins, almost like they left this here on purpose.]]></story_2>
+		<story_3><![CDATA[<b>100% delved:</b>⮀ Looking at the weapon has a small text that says, war has ended and this weapon is layed to rest. Did the gods fight the Valkeries???]]></story_3>
         </ruinsZ6>
         <haulZ1>
             <label>Haul</label>
@@ -1138,9 +1137,9 @@
             You're sure you can use them for something. They're too heavy to move more than one at a time though.<br>
             One in every thousand Stones is temporal.
         ]]></tooltip>
-		<story_1><![CDATA[<b>First Temporal Stone Found:</b>⮀ After digging thru the cubical stones, you notice a light blue light glowing with a swirl pattern on the sides of the rock and they are slightly easier to pick up but still weigh a ton.]]</story_1>
-		<story_2><![CDATA[<b>Moved 100 Temporal Stones:</b>⮀ Slowly you pick up the stones one by one and move them to Valley of Olympus. Make sure to use your legs when lifting! ]]</story_2>
-		<story_3><![CDATA[<b>Moved 250 Temporal Stones:</b>⮀ Finally all the stones have been moved from the Forest Path to Valley of Olympus.]]</story_3>
+		<story_1><![CDATA[<b>First Temporal Stone Found:</b>⮀ After digging thru the cubical stones, you notice a light blue light glowing with a swirl pattern on the sides of the rock and they are slightly easier to pick up but still weigh a ton.]]></story_1>
+		<story_2><![CDATA[<b>Moved 100 Temporal Stones:</b>⮀ Slowly you pick up the stones one by one and move them to Valley of Olympus. Make sure to use your legs when lifting!]]></story_2>
+		<story_3><![CDATA[<b>Moved 250 Temporal Stones:</b>⮀ Finally all the stones have been moved from the Forest Path to Valley of Olympus.]]></story_3>
         </haulZ1>
         <haulZ3>
             <label>Haul</label>
@@ -1154,9 +1153,9 @@
             One in every thousand Stones is temporal.
         ]]></tooltip>
 
-		<story_1><![CDATA[<b>First Temporal Stone Found:</b>⮀ After digging thru the cubical stones, you notice a light blue light glowing with a swirl pattern on the sides of the rock and they are slightly easier to pick up but still weigh a ton.]]</story_1>
-		<story_2><![CDATA[<b>Moved 100 Temporal Stones:</b>⮀ Slowly you pick up the stones one by one and move them to Valley of Olympus. Make sure to use your legs when lifting! ]]</story_2>
-		<story_3><![CDATA[<b>Moved 250 Temporal Stones:</b>⮀ Finally all the stones have been moved from the Startington to Valley of Olympus.]]</story_3>
+		<story_1><![CDATA[<b>First Temporal Stone Found:</b>⮀ After digging thru the cubical stones, you notice a light blue light glowing with a swirl pattern on the sides of the rock and they are slightly easier to pick up but still weigh a ton.]]></story_1>
+		<story_2><![CDATA[<b>Moved 100 Temporal Stones:</b>⮀ Slowly you pick up the stones one by one and move them to Valley of Olympus. Make sure to use your legs when lifting! ]]></story_2>
+		<story_3><![CDATA[<b>Moved 250 Temporal Stones:</b>⮀ Finally all the stones have been moved from the Startington to Valley of Olympus.]]></story_3>
         </haulZ3>
         <haulZ5>
             <label>Haul</label>
@@ -1169,9 +1168,9 @@
             You're sure you can use them for something. They're too heavy to move more than one at a time though.<br>
             One in every thousand Stones is temporal.
         ]]></tooltip>
-		<story_1><![CDATA[<b>First Temporal Stone Found:</b>⮀ After digging thru the cubical stones, you notice a light blue light glowing with a swirl pattern on the sides of the rock and they are slightly easier to pick up but still weigh a ton.]]</story_1>
-		<story_2><![CDATA[<b>Moved 100 Temporal Stones:</b>⮀ Slowly you pick up the stones one by one and move them to Valley of Olympus. Make sure to use your legs when lifting! ]]</story_2>
-		<story_3><![CDATA[<b>Moved 250 Temporal Stones:</b>⮀ Finally all the stones have been moved from the Jungle Path to Valley of Olympus.]]</story_3>
+		<story_1><![CDATA[<b>First Temporal Stone Found:</b>⮀ After digging thru the cubical stones, you notice a light blue light glowing with a swirl pattern on the sides of the rock and they are slightly easier to pick up but still weigh a ton.]]></story_1>
+		<story_2><![CDATA[<b>Moved 100 Temporal Stones:</b>⮀ Slowly you pick up the stones one by one and move them to Valley of Olympus. Make sure to use your legs when lifting! ]]></story_2>
+		<story_3><![CDATA[<b>Moved 250 Temporal Stones:</b>⮀ Finally all the stones have been moved from the Jungle Path to Valley of Olympus.]]></story_3>
         </haulZ5>
         <haulZ6>
             <label>Haul</label>
@@ -1184,9 +1183,9 @@
             You're sure you can use them for something. They're too heavy to move more than one at a time though.<br>
             One in every thousand Stones is temporal.
         ]]></tooltip>
-		<story_1><![CDATA[<b>First Temporal Stone Found:</b>⮀ After digging thru the cubical stones, you notice a light blue light glowing with a swirl pattern on the sides of the rock and they are slightly easier to pick up but still weigh a ton.]]</story_1>
-		<story_2><![CDATA[<b>Moved 100 Temporal Stones:</b>⮀ Slowly you pick up the stones one by one and move them to Valley of Olympus. Make sure to use your legs when lifting! ]]</story_2>
-		<story_3><![CDATA[<b>Moved 250 Temporal Stones:</b>⮀ Finally all the stones have been moved from the Mt. Olympus to Valley of Olympus.]]</story_3>
+		<story_1><![CDATA[<b>First Temporal Stone Found:</b>⮀ After digging thru the cubical stones, you notice a light blue light glowing with a swirl pattern on the sides of the rock and they are slightly easier to pick up but still weigh a ton.]]></story_1>
+		<story_2><![CDATA[<b>Moved 100 Temporal Stones:</b>⮀ Slowly you pick up the stones one by one and move them to Valley of Olympus. Make sure to use your legs when lifting! ]]></story_2>
+		<story_3><![CDATA[<b>Moved 250 Temporal Stones:</b>⮀ Finally all the stones have been moved from the Mt. Olympus to Valley of Olympus.]]></story_3>
         </haulZ6>
         <!--town 1-->
         <map>
@@ -1250,8 +1249,8 @@
             <tooltip><![CDATA[
             You could have sworn you had a spare pair of glasses somewhere. Now you've explored to the ends of the world. Every nook or cranny has revealed to you their secrets. And you've found them - in the last place anyone would ever think to look. On top of your head.<br>
             You now start all loops with glasses.
+		]]></tooltip>
 		<story_1><![CDATA[<b>Found Glasses:</b>⮀ Wait did you have your glasses above your head and you still bought another one??? Glad you had high enough chrisma skill to pull that off.]]></story_1>
-        ]]></tooltip>
         </found_glasses>
         <buy_mana_z1>
             <label>Buy Mana</label>
