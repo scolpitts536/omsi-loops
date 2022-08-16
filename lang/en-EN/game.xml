@@ -1046,11 +1046,11 @@
             Requires a map for each action.<br>
             Currently granting <div class='surveySkill'></div> exp per action.
             ]></tooltip>
-		<story_1><![CDATA[<b>20% World Survey:</b>⮀ You decide it is time to discover the world. One of the explorers decided to come on the journey around the world their name is Dora, the journey is long but so worth.]]</story_1>
-		<story_2><![CDATA[<b>40% World Survey:</b>⮀ Crazy how discovering the world over again is shedding a new light on the world, new items you never seen have just been out of place.]]</story_2>
-		<story_3><![CDATA[<b>60% World Survey:</b>⮀ Nobody is stopping you from exploring more and more, it feels nice. At least the view is spectacular!]]</story_3>
-		<story_4><![CDATA[<b>80% World Survey:</b>⮀ You are almost done with your trip and you have enjoyed every second of it. You wish the explorer's guild has found more locations to visit, but they couldn't find anything new.]]</story_4>
-		<story_5><![CDATA[<b>100% World Survey:</b>⮀ your last exploration had the strangest encounter of them all. just as you finished surveying the area, a fox appeared out of nowhere and swiped your remaining maps!]]</story_5>
+		<story_1><![CDATA[<b>20% World Survey:</b>⮀ You decide it is time to discover the world. One of the explorers decided to come on the journey around the world their name is Dora, the journey is long but so worth.]]></story_1>
+		<story_2><![CDATA[<b>40% World Survey:</b>⮀ Crazy how discovering the world over again is shedding a new light on the world, new items you never seen have just been out of place.]]></story_2>
+		<story_3><![CDATA[<b>60% World Survey:</b>⮀ Nobody is stopping you from exploring more and more, it feels nice. At least the view is spectacular!]]></story_3>
+		<story_4><![CDATA[<b>80% World Survey:</b>⮀ You are almost done with your trip and you have enjoyed every second of it. You wish the explorer's guild has found more locations to visit, but they couldn't find anything new.]]></story_4>
+		<story_5><![CDATA[<b>100% World Survey:</b>⮀ your last exploration had the strangest encounter of them all. just as you finished surveying the area, a fox appeared out of nowhere and swiped your remaining maps!]]></story_5>
         </survey>
         <assassin>
             <label>Assassinate</label>
@@ -1059,31 +1059,31 @@
             Discreetly kill your mark in this town. The more well-known you are, for either good or evil, the harder pulling this off will be...<br>
             Gives progress equal to (Sqrt(Practical) + Thievery + Assassin) * Stat/1000 * Sqrt(Completions/100) / Abs(reputation) / hearts^2.<br>
             Rewards a heart.
-			]></tooltip>
+			]]></tooltip>
 		</assassin>
 		<assassinz0>
-		    <story_1><![CDATA[<b>1 Assassinated in Beginnersville:</b>⮀ His name was Ethan, you met him on your fifteenth loop. Always seemed to be getting into some sort of trouble. You ambush him as he strolls down an alley and carve out his heart before he knows what happened. He'll be fine next loop, you tell yourself.]></story_1>
+		    <story_1><![CDATA[<b>1 Assassinated in Beginnersville:</b>⮀ His name was Ethan, you met him on your fifteenth loop. Always seemed to be getting into some sort of trouble. You ambush him as he strolls down an alley and carve out his heart before he knows what happened. He'll be fine next loop, you tell yourself.]]></story_1>
         </assassinz0>
         <assassinz1>
-            <story_1><![CDATA[<b>1 Assassinated in Forest Path:</b>⮀ How was there more people in the forest besides the hermit and the witch? who knows, all that matters is you killed someone and left with the heart.]></story_1>
+            <story_1><![CDATA[<b>1 Assassinated in Forest Path:</b>⮀ How was there more people in the forest besides the hermit and the witch? who knows, all that matters is you killed someone and left with the heart.]]></story_1>
         </assassinz1>
         <assassinz2>
-            <story_1><![CDATA[<b>1 Assassinated in Merchanton:</b>⮀ You walked into the casino, looked around to check for cameras and killed someone in the storage room. You got the heart and left quickly before being spotted.]></story_1>
+            <story_1><![CDATA[<b>1 Assassinated in Merchanton:</b>⮀ You walked into the casino, looked around to check for cameras and killed someone in the storage room. You got the heart and left quickly before being spotted.]]></story_1>
         </assassinz2>
         <assassinz3>
-            <story_1><![CDATA[<b>1 Assassinated in Mt. Olympus:</b>⮀ You climbed the Mountain and killed one of the yeti's for their heart, what they get for not selling snowcones.]></story_1>
+            <story_1><![CDATA[<b>1 Assassinated in Mt. Olympus:</b>⮀ You climbed the Mountain and killed one of the yeti's for their heart, what they get for not selling snowcones.]]></story_1>
         </assassinz3>
         <assassinz4>
-            <story_1><![CDATA[<b>1 Assassinated in Valhalla:</b>⮀ Gods are looking all around but someone not paying tax on your property comes first, you kill them and grab the heart and quickly leave.]></story_1>
+            <story_1><![CDATA[<b>1 Assassinated in Valhalla:</b>⮀ Gods are looking all around but someone not paying tax on your property comes first, you kill them and grab the heart and quickly leave.]]></story_1>
         </assassinz4>
         <assassinz5>
-            <story_1><![CDATA[<b>1 Assassinated in Startington:</b>⮀ Everyone here is almost close to being dead so should be quick and easy. You get the heart so quick and moved on.]></story_1>
+            <story_1><![CDATA[<b>1 Assassinated in Startington:</b>⮀ Everyone here is almost close to being dead so should be quick and easy. You get the heart so quick and moved on.]]></story_1>
         </assassinz5>
         <assassinz6>
-            <story_1><![CDATA[<b>1 Assassinated in Jungle Path:</b>⮀ Survivers are lost so you can use that to your advantage, 1 quick kill later and you can move on. Don't forget the heart!]></story_1>
+            <story_1><![CDATA[<b>1 Assassinated in Jungle Path:</b>⮀ Survivers are lost so you can use that to your advantage, 1 quick kill later and you can move on. Don't forget the heart!]]></story_1>
         </assassinz6>
         <assassinz7>
-            <story_1><![CDATA[<b>1 Assassinated in Commerenceville:</b>⮀ Last task on the list and there are a ton of corrupted people here, plus the assassnation guild is here to collect all the hearts you gotten.]></story_1>
+            <story_1><![CDATA[<b>1 Assassinated in Commerenceville:</b>⮀ Last task on the list and there are a ton of corrupted people here, plus the assassnation guild is here to collect all the hearts you gotten.]]></story_1>
         </assassinz7>
 		</assassin>
         <!--ruins-->
