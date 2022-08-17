@@ -542,7 +542,6 @@
         <talents_button>Talents</talents_button>
         <story_title>Story</story_title>
         <stories>
-		var story  = ["0", "1", "2", "3", "4", "5", "9", "6", "7", "8", "9", "10", "11", "12];
             <story num="0"> <!--Beginning of Game-->
                 You're a simple courier, on a long trip to deliver a high priority package. Just as you entered town,
                 you tripped - breaking your glasses - and the package burst open, spilling a strange liquid on you.
