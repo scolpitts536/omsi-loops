@@ -1618,8 +1618,7 @@ Action.WildMana = new Action("Wild Mana", {
             const manaGain = this.goldCost();
             addMana(manaGain);
             return manaGain;
-        });
-    }
+    },
     story(completed) {
         if (towns[1][`good${this.varName}`] >= 50 && towns[1][`goodTemp${this.varName}`] <= towns[1][`good${this.varName}`] - 50) unlockStory("WildMana50TimesInALoop");
         if (towns[1][`good${this.varName}`] >= 100 && towns[1][`goodTemp${this.varName}`] <= towns[1][`good${this.varName}`] - 100) unlockStory("WildMana100TimesInALoop");
