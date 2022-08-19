@@ -5097,10 +5097,10 @@ Action.TheSpire = new DungeonAction("The Spire", 2, {
         if (curFloor >= getBuffLevel("Aspirant")) addBuffAmt("Aspirant", 1);
     },
     visible() {
-        return towns[5].getLevel("Meander") >= 20;
+        return towns[5].getLevel("Meander") >= 25;
     },
     unlocked() {
-        return (getSkillLevel("Combat") + getSkillLevel("Magic")) >= 400;
+        return (getSkillLevel("Magic")) >= 300;
     },
     finish() {
         handleSkillExp(this.skills);
@@ -5169,7 +5169,7 @@ Action.DeadTrial = new TrialAction("Dead Trial", 4, {
         return this.currentFloor() < trialFloors[this.trialNum];
     },
     visible() {
-        return towns[this.townNum].getLevel("Survey") >= 100;
+        return towns[this.townNum].getLevel("Survey") >= 75;
     },
     unlocked() {
         return towns[this.townNum].getLevel("Survey") >= 100;
@@ -5401,7 +5401,7 @@ Action.PrepareBuffet = new Action("Prepare Buffet", {
         return 30000;
     },
     visible() {
-        return towns[6].getLevel("ExploreJungle") >= 20;
+        return towns[6].getLevel("ExploreJungle") >= 10;
     },
     unlocked() {
         return towns[6].getLevel("ExploreJungle") >= 20;
@@ -5467,7 +5467,7 @@ Action.Escape = new Action("Escape", {
         return 50000;
     },
     visible() {
-        return towns[6].getLevel("ExploreJungle") >= 75;
+        return towns[6].getLevel("ExploreJungle") >= 50;
     },
     unlocked() {
         return towns[6].getLevel("ExploreJungle") >= 100;
@@ -5819,7 +5819,7 @@ Action.InsuranceFraud = new Action("Insurance Fraud", {
         return 100000;
     },
     visible() {
-        return towns[7].getLevel("RobWarehouse") >= 50;
+        return towns[7].getLevel("RobWarehouse") >= 25;
     },
     unlocked() {
         return towns[7].getLevel("RobWarehouse") >= 100;
@@ -5860,10 +5860,10 @@ Action.GuildAssassin = new Action("Guild Assassin", {
         return guild === "";
     },
     visible() {
-        return towns[this.townNum].getLevel("InsuranceFraud") >= 75;
+        return towns[this.townNum].getLevel("InsuranceFraud") >= 25;
     },
     unlocked() {
-        return towns[this.townNum].getLevel("Excursion") >= 100;
+        return towns[this.townNum].getLevel("InsuranceFraud") >= 100;
     },
     finish() {
         let assassinExp = 0;
@@ -6227,7 +6227,7 @@ Action.GodsTrial = new TrialAction("Gods Trial", 1, {
         if (this.currentFloor() === trialFloors[this.trialNum] - 1) addResource("power", 1);
     },
     visible() {
-        return towns[this.townNum].getLevel("BuildTower") >= 100;
+        return towns[this.townNum].getLevel("BuildTower") >= 50;
     },
     unlocked() {
         return towns[this.townNum].getLevel("BuildTower") >= 100;
