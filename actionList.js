@@ -62,7 +62,7 @@ function getXMLName(name) {
 }
 
 const townNames = ["Beginnersville", "Forest Path", "Merchanton", "Mt. Olympus", "Valhalla", "Startington", "Jungle Path", "Commerceville", "Valley of Olympus"];
-var story  = ["0", "1", "2", "3", "4", "5", "9", "6", "7", "8", "9", "10", "11", "12];
+var story  = ["0", "1", "2", "3", "4", "5", "9", "6", "7", "8", "9", "10", "11", "12"];
 
 // there are 4 types of actions
 // 1: normal actions. normal actions have no additional UI (haggle, train strength)
