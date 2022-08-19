@@ -4977,7 +4977,7 @@ Action.DestroyPylons = new Action("Destroy Pylons", {
         return 10000;
     },
     visible() {
-        return towns[5].getLevel("Meander") >= 1;
+        return towns[5].getLevel("Meander") >= 2;
     },
     unlocked() {
         return towns[5].getLevel("Meander") >= 5;
@@ -5097,10 +5097,10 @@ Action.TheSpire = new DungeonAction("The Spire", 2, {
         if (curFloor >= getBuffLevel("Aspirant")) addBuffAmt("Aspirant", 1);
     },
     visible() {
-        return towns[5].getLevel("Meander") >= 5;
+        return towns[5].getLevel("Meander") >= 20;
     },
     unlocked() {
-        return (getSkillLevel("Combat") + getSkillLevel("Magic")) >= 35;
+        return (getSkillLevel("Combat") + getSkillLevel("Magic")) >= 400;
     },
     finish() {
         handleSkillExp(this.skills);
@@ -5308,7 +5308,7 @@ function getFightJungleMonstersRank(offset) {
         "Bonobo",
         "Jaguar",
         "Chimpanzee",
-        "Annaconda",
+        "Anaconda",
         "Lion",
         "Tiger",
         "Bear",
