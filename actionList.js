@@ -1583,6 +1583,7 @@ Action.WildMana = new Action("Wild Mana", {
     type: "limited",
     expMult: 1,
     townNum: 1,
+	varName: "WildMana",
     storyReqs(storyNum) {
         switch (storyNum) {
             case 1:
