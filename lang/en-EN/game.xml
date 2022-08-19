@@ -2452,7 +2452,7 @@
             <tooltip><![CDATA[
             Search the town for wells that still have any mana left. They seem to be rapidly draining.<br>
             Full wells have 5000 mana, but lose 10 mana for every second that has passed in the loop.<br>
-            Every 100 wells still has mana.
+            Every 100 wells still has mana. Unlocked at 2% Meander.
         ]]></tooltip>
         </mana_well>
         <destroy_pylons>
@@ -2462,19 +2462,19 @@
             <info_text2>Buildings with pylons total</info_text2>
             <info_text3>Buildings to check for pylons</info_text3>
             <tooltip><![CDATA[
-            There are strange pylons humming with energy in the abandoned buildings of this town. You're not sure why, but you feel compelled to break them. Every 100 abandoned buildings have 1 breakable pylon. Reduces the mana cost of The Spire by 10% for each pylon destroyed.
+            There are strange pylons humming with energy in the abandoned buildings of this town. You're not sure why, but you feel compelled to break them. Every 100 abandoned buildings have 1 breakable pylon. Reduces the mana cost of The Spire by 10% for each pylon destroyed. Unlocked at 2% Meander.
         ]]></tooltip>
         </destroy_pylons>
         <raise_zombie>
             <label>Raise Zombie</label>
             <tooltip><![CDATA[
-            Upon stumbling by the local cemetery, you realize that those numerous tombstones could perhaps benefit you in a meaningful way. With your knowledge of dark magic, and a hint of troll's blood, you might just be able to raise a zombie of your very own!<br>Costs 1 blood.<br>Each zombie adds (dark magic / 2) to your team combat.<br>Unlocked at 1000 dark magic.
+            Upon stumbling by the local cemetery, you realize that those numerous tombstones could perhaps benefit you in a meaningful way. With your knowledge of dark magic, and a hint of troll's blood, you might just be able to raise a zombie of your very own!<br>Costs 1 blood.<br>Each zombie adds (dark magic / 2) to your team combat.<br>Unlocked at 1000 dark magic and 15% Meander.
         ]]></tooltip>
         </raise_zombie>
         <dark_sacrifice>
             <label>Dark Sacrifice</label>
             <tooltip><![CDATA[
-            You make a sacrifice of trolls blood to dark gods.<br>Costs 1 blood.<br>Reduces the soulstone cost of dark ritual.<br>Unlocked at 60 dark ritual.
+            You make a sacrifice of trolls blood to dark gods.<br>Costs 1 blood.<br>Reduces the soulstone cost of dark ritual.<br>Unlocked at 60 dark ritual and 25% Meander.
         ]]></tooltip>
         </dark_sacrifice>
         <the_spire>
@@ -2506,7 +2506,7 @@
         <purchase_supplies>
         <label>Buy Supplies</label>
             <tooltip><![CDATA[
-            Prepare to move on.<br>Costs 500 gold.<br>This merchant doesn't seem to be willing to haggle with you though.<br>You only need one set of supplies.<br>
+            Prepare to move on.<br>Costs 500 gold.<br>This merchant doesn't seem to be willing to haggle with you though.<br>You only need one set of supplies.<br> Unlocks at 75% Meander.
         ]]></tooltip>
         </purchase_supplies>
         <dead_trial>
@@ -2515,7 +2515,7 @@
             <label_part>Necropolis</label_part>
             <label_complete>Grave Defiled</label_complete>
             <tooltip><![CDATA[
-            You've found an old necropolis. It's way too haunted for you and your party, but you could probably send some zombies in to look for more bodies.<br>
+            You've found an old necropolis. It's way too haunted for you and your party, but you could probably send some zombies in to look for more bodies.<br> Unlocked at 100% Survey.
             Progress is based on (Dark Magic Skill * Zombies / 2)<br>
             Rewards 1 Zombie per floor completion.
         ]]></tooltip>
@@ -2529,7 +2529,7 @@
         <journey_forth>
             <label>Journey Forth</label>
             <tooltip><![CDATA[
-            Follow the trail out of town. Anywhere has to be better than here. You think.<br>Costs 1 supplies. Finish once to unlock Jungle Path's actions, then finish this in order to use Jungle Path's actions.
+            Follow the trail out of town. Anywhere has to be better than here. You think.<br>Costs 1 supplies. Finish once to unlock Jungle Path's actions, then finish this in order to use Jungle Path's actions. Unlocks at 100% Meander.
         ]]></tooltip>
         </journey_forth>
         <fight_jungle_monsters>
@@ -2555,7 +2555,7 @@
             <label_done>Saved</label_done>
             <label_part>Survivor</label_part>
             <tooltip><![CDATA[
-            There are people lost wandering the jungle. If you can find them, you can patch them up and bring them back to camp.<br>Gives (magic skill) * (restoration skill / 100) * (1 + main stat / 100) * sqrt(1 + times completed / 100) * (original mana cost / actual mana cost) * (Jungle Explored %) progress points per mana.<br>Rescued survivors give 4 reputation.
+            There are people lost wandering the jungle. If you can find them, you can patch them up and bring them back to camp.<br>Gives (magic skill) * (restoration skill / 100) * (1 + main stat / 100) * sqrt(1 + times completed / 100) * (original mana cost / actual mana cost) * (Jungle Explored %) progress points per mana.<br>Rescued survivors give 4 reputation. Unlocked at 20% Jungle Explored.
         ]]></tooltip>
             <segment_names>
                 <name>Find</name>
@@ -2568,6 +2568,7 @@
             <tooltip><![CDATA[
             It's not quite the same as making potions, but you can use your alchemy skills to prepare food for the gathered group.<br>
             Costs 10 herbs and a blood.<br>
+			Unlocks at 20% Jungle Explored.<br>
             Gives Gluttony exp equal to (Rescued Survivors * 5).
         ]]></tooltip>
 		<!--story action for You finish preparing the buffet but have nobody to share it with. You spot somebody sprinting through the area saying something about being too fast and offer to share the buffet with them. To your surprise they fanatically refuse the free meal, exclaiming they may never taste food-->>
@@ -2585,7 +2586,7 @@
         <escape>
             <label>Escape</label>
             <tooltip><![CDATA[
-            The jungle seems to grow ever larger with every moment that passes. You'll have to get out of here fast.<br>Must be started within 60 seconds of the loop (hover Mana Used for effective time).
+            The jungle seems to grow ever larger with every moment that passes. You'll have to get out of here fast.<br>Must be started within 60 seconds of the loop (hover Mana Used for effective time). Unlocks at 100% Jungle Explored.
         ]]></tooltip>
         </escape>
         <open_portal>
@@ -2594,7 +2595,7 @@
             The explorers guild tells you of a secret grove within jungle where the space between realms is weakest. With enough restoration skill, you may be able to open a rift back and leave the shadow realm. However, it seems a bit of time passes when you take the portal, and some merchants have closed up shop.<br>
             Travels to Forest Path.<br>
             Buy Mana actions are no longer possible.<br>
-            Requires 1000 Restoration.
+            Requires 1000 Restoration and 75% World Survey.
         ]]></tooltip>
         </open_portal>
         <excursion>
@@ -2615,6 +2616,7 @@
             Unlocks the Survey action in other zones based on world survey progress.<br>
             If you bring completed maps, they'll trade 2x knowledge with you on areas you haven't surveyed.<br>
             If you have no maps, they'll give you a few to help you get started.<br>
+			Unlocks at 10% Excursion.
             Unlocks new shortcuts for every 25% world survey progress<br>
             Current world survey progress: <div id='totalSurveyProgress'></div>%.
         ]]></tooltip>
@@ -2623,7 +2625,7 @@
             <label>Thieves Guild</label>
             <label_done>Pursestrings Cut</label_done>
             <tooltip><![CDATA[
-            Learn to transfer wealth to those most in need. You, mostly.<br>Take their tests and get a rank!<br>Requires negative reputation.<br>You can only join 1 guild at a time (including from Merchanton), and only try once.<br>Gives 10 gold per segment completed.<br>Gives ((practical magic skill) + (thievery skill)) * (1 + main stat / 100) * sqrt(1 + times completed / 1000) * (original mana cost / actual mana cost) progress points per mana.<br>Gives Thievery exp upon segment completion, rather than upon action completion.
+            Learn to transfer wealth to those most in need. You, mostly.<br>Take their tests and get a rank!<br>Requires negative reputation.<br>You can only join 1 guild at a time (including from Merchanton), and only try once.<br>Gives 10 gold per segment completed.<br>Gives ((practical magic skill) + (thievery skill)) * (1 + main stat / 100) * sqrt(1 + times completed / 1000) * (original mana cost / actual mana cost) progress points per mana.<br>Gives Thievery exp upon segment completion, rather than upon action completion. Unlocks at 25% Excursion.
         ]]></tooltip>
         </thieves_guild>
         <pick_pockets>
@@ -2685,7 +2687,7 @@
         <seminar>
             <label>Seminar</label>
             <tooltip><![CDATA[
-            You can buy entrance to a motivational seminar - learn to be the best you and make people love you. You're pretty sure turning back time is the only way you can get off these people's list.<br>Costs
+            You can buy entrance to a motivational seminar - learn to be the best you and make people love you. You're pretty sure turning back time is the only way you can get off these people's list. Unlocks at 100% survey.<br>Costs
         ]]></tooltip>
         <tooltip2>gold.</tooltip2>
         </seminar>
@@ -2752,7 +2754,7 @@
             <label_complete>100 Floors Completed</label_complete>
             <label_part>Gods Trial</label_part>
             <tooltip><![CDATA[
-            The gods have filled the 100 floors of the tower you built with monsters to stop you from returning to Valhalla. Rude. More Team Combat can help clear floors faster.
+            The gods have filled the 100 floors of the tower you built with monsters to stop you from returning to Valhalla. Rude. Unlocks at 100% Tower Built. More Team Combat can help clear floors faster.
         ]]></tooltip>
             <segment_names>
 		    <name>Fight Fire Dragon</name>
