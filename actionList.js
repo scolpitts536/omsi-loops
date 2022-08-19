@@ -1587,6 +1587,12 @@ Action.WildMana = new Action("Wild Mana", {
         switch (storyNum) {
             case 1:
                 return towns[1][`checked${this.varName}`] >= 1;
+			case 2:
+				return storyReqs.WildMana50TimesInALoop;
+			case 3:
+				return storyReqs.WildMana100TimesInALoop;
+			case 4:
+				return storyReqs.WildMana150TimesInALoop;
         }
         return false;
     },
@@ -1613,6 +1619,11 @@ Action.WildMana = new Action("Wild Mana", {
             addMana(manaGain);
             return manaGain;
         });
+    }
+    story(completed) {
+        if (towns[1][`good${this.varName}`] >= 50 && towns[1][`goodTemp${this.varName}`] <= towns[1][`good${this.varName}`] - 50) unlockStory("WildMana50TimesInALoop");
+        if (towns[1][`good${this.varName}`] >= 100 && towns[1][`goodTemp${this.varName}`] <= towns[1][`good${this.varName}`] - 100) unlockStory("WildMana100TimesInALoop");
+		if (towns[1][`good${this.varName}`] >= 150 && towns[1][`goodTemp${this.varName}`] <= towns[1][`good${this.varName}`] - 150) unlockStory("WildMana150TimesInALoop");
     }
 });
 
