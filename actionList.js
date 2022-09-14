@@ -1281,6 +1281,7 @@ Action.SmallDungeon = new DungeonAction("Small Dungeon", 0, {
     },
     finish() {
         handleSkillExp(this.skills);
+		}
     },
     story(completed) {
         unlockStory("smallDungeonAttempted");
@@ -1297,7 +1298,8 @@ function finishDungeon(dungeonNum, floorNum) {
     if (rand <= floor.ssChance) {
         const statToAdd = statList[Math.floor(Math.random() * statList.length)];
         floor.lastStat = statToAdd;
-        stats[statToAdd].soulstone = stats[statToAdd].soulstone ? (stats[statToAdd].soulstone + Math.floor(Math.pow(10, dungeonNum) * getSkillBonus("Divine"))) : 1;
+        const current = stats[statToAdd].soulstone || 0;
+		(stats[statToAdd].soulstone = current + Math.floor(Math.pow(10, dungeonNum) * getSkillBonus("Divine")))
         floor.ssChance *= 0.98;
         view.requestUpdate("updateSoulstones",null);
         return true;
@@ -1589,10 +1591,8 @@ Action.WildMana = new Action("Wild Mana", {
             case 1:
                 return towns[1][`checked${this.varName}`] >= 1;
 			case 2:
-				return storyReqs.WildMana50TimesInALoop;
-			case 3:
 				return storyReqs.WildMana100TimesInALoop;
-			case 4:
+			case 3:
 				return storyReqs.WildMana150TimesInALoop;
         }
         return false;
@@ -1622,7 +1622,6 @@ Action.WildMana = new Action("Wild Mana", {
         });
     },
     story(completed) {
-        if (towns[1][`good${this.varName}`] >= 50 && towns[1][`goodTemp${this.varName}`] <= towns[1][`good${this.varName}`] - 50) unlockStory("WildMana50TimesInALoop");
         if (towns[1][`good${this.varName}`] >= 100 && towns[1][`goodTemp${this.varName}`] <= towns[1][`good${this.varName}`] - 100) unlockStory("WildMana100TimesInALoop");
 		if (towns[1][`good${this.varName}`] >= 150 && towns[1][`goodTemp${this.varName}`] <= towns[1][`good${this.varName}`] - 150) unlockStory("WildMana150TimesInALoop");
     }
@@ -3666,7 +3665,7 @@ Action.MineSoulstones = new Action("Mine Soulstones", {
     finish() {
         towns[3].finishRegular(this.varName, 10, () => {
             const statToAdd = statList[Math.floor(Math.random() * statList.length)];
-            stats[statToAdd].soulstone +=  Math.floor(getSkillBonus("Divine"));
+            stats[statToAdd].soulstone +=  Math.floor(7 * getSkillBonus("Divine"));
             view.requestUpdate("updateSoulstones", null);
         });
     },
@@ -4379,7 +4378,7 @@ Action.Oracle = new Action("Oracle", {
 });
 
 Action.EnchantArmor = new Action("Enchant Armor", {
-    tytpe: "normal",
+    type: "normal",
     expMult: 1,
     townNum: 4,
     stats: {
@@ -4663,7 +4662,7 @@ Action.CollectTaxes = new Action("Collect Taxes", {
 });
 
 Action.Pegasus = new Action("Pegasus", {
-    tytpe: "normal",
+    type: "normal",
     expMult: 1,
     townNum: 4,
     stats: {
@@ -5109,10 +5108,10 @@ Action.TheSpire = new DungeonAction("The Spire", 2, {
         if (curFloor >= getBuffLevel("Aspirant")) addBuffAmt("Aspirant", 1);
     },
     visible() {
-        return towns[5].getLevel("Meander") >= 25;
+        return (getSkillLevel("Magic")) >= 300;
     },
     unlocked() {
-        return (getSkillLevel("Magic")) >= 300;
+        return towns[5].getLevel("Meander") >= 10;
     },
     finish() {
         handleSkillExp(this.skills);
@@ -5320,7 +5319,7 @@ function getFightJungleMonstersRank(offset) {
         "Bonobo",
         "Jaguar",
         "Chimpanzee",
-        "Anaconda",
+        "Annaconda",
         "Lion",
         "Tiger",
         "Bear",
@@ -5333,9 +5332,9 @@ function getFightJungleMonstersRank(offset) {
     let bonus = precision3(1 + 0.05 * Math.pow(segment, 1.05));
     if (name) {
         if (offset === undefined) {
-            name += ["-", "", "+"][curFightJungleMonstersSegment % 3];
+            name += ["A couple", "A few", "A bunch"][curFightJungleMonstersSegment % 3];
         } else {
-            name += ["-", "", "+"][offset % 3];
+            name += ["A couple", "A few", "A bunch"][offset % 3];
         }
     } else {
         name = "Stampede";

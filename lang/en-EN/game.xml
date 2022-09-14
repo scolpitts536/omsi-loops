@@ -365,7 +365,7 @@
                 <title>Challenges</title>
             </meta>
             <standard_game>The original experience, as the game was meant to be played.</standard_game>
-            <mana_drought>The mana merchant in Beginnersville only has 5k mana to sell, and they're charging double the usual price. No other mana merchants exist.</mana_drought>
+            <mana_drought>The mana merchant in Beginnersville only has 7.5k mana to sell, and they're charging 1 gold for 30 mana. No other mana merchants exist. Plus a 2x speed boost to help grinding!</mana_drought>
             <noodle_arms>You have no base Self-Combat ability. All combat is based on followers. Self combat is half of your team member or zombie strength (whichever is higher).</noodle_arms>
             <mana_burn>You have a day's worth of mana that persists through loops, but once that runs out, you'll be stuck in time. How far can you make it?</mana_burn>
         </challenges>
@@ -1056,7 +1056,7 @@
             <label_done>Assassinated</label_done>
             <tooltip><![CDATA[
             Discreetly kill your mark in this town. The more well-known you are, for either good or evil, the harder pulling this off will be...<br>
-            Gives progress equal to (Sqrt(Practical) + Thievery + Assassin) * Stat/1000 * Sqrt(Completions/100) / Abs(reputation) / hearts^2.<br>
+            Gives progress equal to (Sqrt(Practical) + Thievery + Assassin) * Stat/1000 * Sqrt(Completions/100) / Abs(reputation) / hearts.<br>
             Rewards a heart.
 			]]></tooltip>
 		</assassin>
@@ -1490,7 +1490,6 @@
             There are small changes each time; it's harder to get used to. The soulstones at the end last through loops, but they're not always in the dungeon... Strange.<br>The dungeon requires different skills at different points.<br>One action can clear multiple floors if your stats are high enough.<br>Gives (magic + self combat) * (1 + main stat / 100) * sqrt(1 + times floor completed / 200) * (original mana cost / actual mana cost) progress points per mana.<br>Unlocked at a combined Combat and Magic skill of 35.<br>Requires a reputation of 2 or above.<br>Gives 1 soulstone per completion - hover over Looted for info.
         ]]></tooltip>
             <completed_tooltip><![CDATA[
-            Each soulstone improves a random stat's exp gain by (1+(soulstones)^.8/30).<br>Each floor has a soulstone that, when received, reduces the chance you'll get the next one by 2%.<br>Chance to receive a soulstone recovers per floor at 0.00001% per mana.<br>
         ]]></completed_tooltip>
             <chance_label>Chance</chance_label>
             <last_stat_label>Last</last_stat_label>
@@ -1576,10 +1575,9 @@
             <tooltip2><![CDATA[
             mana.<br>Every 10 mana spots have good mana.
         ]]></tooltip2>
-            <story_1><![CDATA[<b>Source checked for mana:</b>⮀ It's just sitting there, stray slightly from the beaten path and you find an abundance of mana just waiting for someone to take it, the only catch being you need to extract it from the plants surrounding it and they've proven slightly unwilling to part with it.]]></story_1>
-	        <story_2><![CDATA[<b>50 Sources checked for mana in a loop:</b>⮀ After exploring the forest 100%, you know the path to get all the mana sources, mana mania!]]></story_2>
-	        <story_3><![CDATA[<b>100 Sources checked for mana in a loop:</b>⮀ After exploring the thicket 100%, you know the path of the forest and the thicket to get tons of mana, insane!]]></story_3>
-	        <story_4><![CDATA[<b>150 Sources checked for mana in a loop:</b>⮀ In the nooks of the forest there is a secret path that you never even noticed, you probly wanted to see the hermit so much. There is 50 more mana sources with your name on it, god speed.]]></story_4>
+            <story_1><![CDATA[<b>Source checked for mana:</b>⮀ It's just sitting there; you stray only slightly from the beaten path and you find an abundance of mana just waiting for someone to take it. The only catch is that you need to extract it from the plants surrounding it, and they've proven slightly unwilling to part with it.]]></story_1>
+	        <story_2><![CDATA[<b>100 Sources checked for mana in a loop:</b>⮀ The forest is teeming with clusters of mana, invariably choked by plants feeding off of the ever-useful energy. You're not exactly sure what's producing it all, but it's part of the natural rhythm of the forest. You're almost inclined to leave it be, but if you want to escape the loops you need the mana more than the plants do.]]></story_2>
+	        <story_3><![CDATA[<b>150 Sources checked for mana in a loop:</b>⮀ In the nooks of the forest there is a secret path that you never even noticed, you probly wanted to see the hermit so much. There is 50 more mana sources with your name on it, god speed.]]></story_3>
         </wild_mana>
         <gather_herbs>
             <label>Gather Herbs</label>
@@ -1888,7 +1886,6 @@
             With your party, you set out to accomplish great feats of dungeoneering that you couldn't have done while alone.<br>Gives (magic + team combat) * (1 + main stat / 100) * sqrt(1 + times floor completed / 200) * (original mana cost / actual mana cost) progress points per mana.<br>Requires at least one other party member.<br>Unlocked at 20% Rumors Heard.<br>Gives 10 soulstones per completion - hover over Looted for info.
         ]]></tooltip>
             <completed_tooltip><![CDATA[
-            Each soulstone improves a random stat's exp gain by (1+(soulstones)^.8/30).<br>Each floor has 10 soulstones that, when received, reduces the chance you'll get the next one by 2%.<br>Chance to receive a soulstone recovers per floor at 0.00001% per mana.<br>
         ]]></completed_tooltip>
             <chance_label>Chance</chance_label>
             <last_stat_label>Last</last_stat_label>
@@ -2483,10 +2480,9 @@
             <label_complete>Completed</label_complete>
             <label_part>The Spire</label_part>
             <tooltip><![CDATA[
-            Standing tall in the dead center of the town is the towering spire. Surrounded by a storm, and almost emanating gloom. This is surely your greatest task yet.<br>Gives (team combat) * (1 + main stat / 100) * sqrt(1 + times floor completed / 200) * (original mana cost / actual mana cost) progress points per mana.<br>Progress scaling per floor is reduced by 0.1x per pylon disabled.<br>Unlocked at 300 Magic and 25% Meander.<br>Gives 100 soulstones per completion - hover over Looted for info.
+            Standing tall in the dead center of the town is the towering spire. Surrounded by a storm, and almost emanating gloom. This is surely your greatest task yet.<br>Gives (team combat) * (1 + main stat / 100) * sqrt(1 + times floor completed / 200) * (original mana cost / actual mana cost) progress points per mana.<br>Progress scaling per floor is reduced by 0.1x per pylon disabled.<br>Unlocked at 300 Magic and 10% Meander.<br>Gives 100 soulstones per completion - hover over Looted for info.
         ]]></tooltip>
             <completed_tooltip><![CDATA[
-            Each soulstone improves a random stat's exp gain by (1+(soulstones)^.8/30).<br>Each floor has 100 soulstones that, when received, reduces the chance you'll get the next one by 2%.<br>Chance to receive a soulstone recovers per floor at 0.00001% per mana.<br>
         ]]></completed_tooltip>
             <chance_label>Chance</chance_label>
             <last_stat_label>Last</last_stat_label>
@@ -2615,7 +2611,7 @@
             You can only join 1 guild at a time (including from Merchanton), and only try once.<br>
             Unlocks the Survey action in other zones based on world survey progress.<br>
             If you bring completed maps, they'll trade 2x knowledge with you on areas you haven't surveyed.<br>
-            If you have no maps, they'll give you a few to help you get started.<br>
+            If you have no uncompleted maps, they'll give you a few to help you get started.<br>
 			Unlocks at 10% Excursion.
             Unlocks new shortcuts for every 25% world survey progress<br>
             Current world survey progress: <div id='totalSurveyProgress'></div>%.
@@ -2632,7 +2628,7 @@
             <label>Pick Pockets</label>
             <label_done>Pockets Picked</label_done>
             <tooltip><![CDATA[
-            Help travels by making their load a bit lighter.<br>
+            Help travelers by making their load a bit lighter.<br>
             Requires thieves guild.<br>
             Can be completed <div id='actionAllowedPockets'>x</div> times based on excursion progress and spatiomancy.<br>
             Rewards
