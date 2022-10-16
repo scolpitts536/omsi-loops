@@ -1281,6 +1281,7 @@ Action.SmallDungeon = new DungeonAction("Small Dungeon", 0, {
     },
     finish() {
         handleSkillExp(this.skills);
+		}
     },
     story(completed) {
         unlockStory("smallDungeonAttempted");
