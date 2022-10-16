@@ -1286,7 +1286,7 @@ Action.SmallDungeon = new DungeonAction("Small Dungeon", 0, {
     story(completed) {
         unlockStory("smallDungeonAttempted");
         if (towns[this.townNum][this.varName + "LoopCounter"] >= 42) unlockStory("clearSDungeon");
-});
+    },
 function finishDungeon(dungeonNum, floorNum) {
     const floor = dungeons[dungeonNum][floorNum];
     if (!floor) {
@@ -1304,7 +1304,8 @@ function finishDungeon(dungeonNum, floorNum) {
         return true;
     }
     return false;
-}
+    }
+});
 
 Action.BuySupplies = new Action("Buy Supplies", {
     type: "normal",
