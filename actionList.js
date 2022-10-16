@@ -1635,6 +1635,8 @@ Action.GatherHerbs = new Action("Gather Herbs", {
         switch (storyNum) {
             case 1:
                 return towns[1][`checked${this.varName}`] >= 1;
+			case 2:
+				return storyReqs.
         }
         return false;
     },

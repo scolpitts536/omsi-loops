@@ -1490,6 +1490,7 @@
             There are small changes each time; it's harder to get used to. The soulstones at the end last through loops, but they're not always in the dungeon... Strange.<br>The dungeon requires different skills at different points.<br>One action can clear multiple floors if your stats are high enough.<br>Gives (magic + self combat) * (1 + main stat / 100) * sqrt(1 + times floor completed / 200) * (original mana cost / actual mana cost) progress points per mana.<br>Unlocked at a combined Combat and Magic skill of 35.<br>Requires a reputation of 2 or above.<br>Gives 1 soulstone per completion - hover over Looted for info.
         ]]></tooltip>
             <completed_tooltip><![CDATA[
+            Each soulstone improves a random stat's exp gain by (1+(soulstones)^.8/30).<br>Each floor has <div id='smallDungeon'>x</div> soulstone that, when received, you lose 2% chance on the current drop chance on every successful soulstone recieved.<br>Chance to receive a soulstone recovers per floor at 0.00001% per mana.<br>
         ]]></completed_tooltip>
             <chance_label>Chance</chance_label>
             <last_stat_label>Last</last_stat_label>
@@ -1886,6 +1887,7 @@
             With your party, you set out to accomplish great feats of dungeoneering that you couldn't have done while alone.<br>Gives (magic + team combat) * (1 + main stat / 100) * sqrt(1 + times floor completed / 200) * (original mana cost / actual mana cost) progress points per mana.<br>Requires at least one other party member.<br>Unlocked at 20% Rumors Heard.<br>Gives 10 soulstones per completion - hover over Looted for info.
         ]]></tooltip>
             <completed_tooltip><![CDATA[
+            Each soulstone improves a random stat's exp gain by (1+(soulstones)^.8/30).<br>Each floor has <div id='largeDungeon'>x</div> soulstones that, when received, you lose 2% chance on the current drop chance on every successful soulstone recieved.<br>Chance to receive a soulstone recovers per floor at 0.00001% per mana.<br>
         ]]></completed_tooltip>
             <chance_label>Chance</chance_label>
             <last_stat_label>Last</last_stat_label>
@@ -2483,6 +2485,7 @@
             Standing tall in the dead center of the town is the towering spire. Surrounded by a storm, and almost emanating gloom. This is surely your greatest task yet.<br>Gives (team combat) * (1 + main stat / 100) * sqrt(1 + times floor completed / 200) * (original mana cost / actual mana cost) progress points per mana.<br>Progress scaling per floor is reduced by 0.1x per pylon disabled.<br>Unlocked at 300 Magic and 10% Meander.<br>Gives 100 soulstones per completion - hover over Looted for info.
         ]]></tooltip>
             <completed_tooltip><![CDATA[
+            Each soulstone improves a random stat's exp gain by (1+(soulstones)^.8/30).<br>Each floor has <div id='spire'>x</div> soulstones that, when received, you lose 2% chance on the current drop chance on every successful soulstone recieved.<br>Chance to receive a soulstone recovers per floor at 0.00001% per mana.<br>
         ]]></completed_tooltip>
             <chance_label>Chance</chance_label>
             <last_stat_label>Last</last_stat_label>
