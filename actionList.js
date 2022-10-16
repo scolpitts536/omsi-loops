@@ -1281,9 +1281,8 @@ Action.SmallDungeon = new DungeonAction("Small Dungeon", 0, {
     },
     finish() {
         handleSkillExp(this.skills);
-		}
     },
-    story(completed)) {
+    story(completed) {
         unlockStory("smallDungeonAttempted");
         if (towns[this.townNum][this.varName + "LoopCounter"] >= 42) unlockStory("clearSDungeon");
     },
