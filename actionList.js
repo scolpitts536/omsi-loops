@@ -1287,7 +1287,7 @@ Action.SmallDungeon = new DungeonAction("Small Dungeon", 0, {
         unlockStory("smallDungeonAttempted");
         if (towns[this.townNum][this.varName + "LoopCounter"] >= 42) unlockStory("clearSDungeon");
     },
-function finishDungeon(dungeonNum, floorNum) {
+function finishDungeon(dungeonNum, floorNum) 
     const floor = dungeons[dungeonNum][floorNum];
     if (!floor) {
         return false;
