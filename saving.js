@@ -198,6 +198,7 @@ const storyReqs = {
     suppliesBought: false,
     suppliesBoughtWithoutHaggling: false,
     smallDungeonAttempted: false,
+	WildMana50TimesInALoop: false,
 	WildMana100TimesInALoop: false,
 	WildMana150TimesInALoop: false,
     satByWaterfall: false,

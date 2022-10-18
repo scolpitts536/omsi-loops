@@ -334,9 +334,6 @@ function View() {
         for (const resource in resources) this.updateResource(resource);
     };
     this.updateActionTooltips = function() {
-		document.getElementById("smallDungeon").textContent = intToStringRound(soulstone);
-		document.getElementById("largeDungeon").textContent = intToStringRound(soulstone);
-		document.getElementById("spire").textContent = intToStringRound(soulstone);
         document.getElementById("goldInvested").textContent = intToStringRound(goldInvested);
         document.getElementById("bankInterest").textContent = intToStringRound(goldInvested * .001);
         document.getElementById("actionAllowedPockets").textContent = intToStringRound(towns[7].totalPockets);
@@ -1003,7 +1000,6 @@ function View() {
                             <div id='segmentName${i}${varName}'></div><br>
                             <div class='bold'>Main Stat</div> <div id='mainStat${i}${varName}'></div><br>
                             <div class='bold'>Progress</div> <div id='progress${i}${varName}'></div> / <div id='progressNeeded${i}${varName}'></div>
-							<div class='medium bold'>${_txt(`stats>${stat}>long_form`)}</div><br>${_txt(`stats>${stat}>blurb`)}
                         </div>
                     </div>`;
         }
@@ -1268,7 +1264,7 @@ function View() {
 }
 
 function unlockGlobalStory(num) {
-    if (num >= storyMax) {
+    if (num > storyMax) {
         document.getElementById("newStory").style.display = "inline-block";
         storyMax = num;
     }
