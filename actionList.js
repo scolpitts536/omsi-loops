@@ -1287,11 +1287,9 @@ Action.SmallDungeon = new DungeonAction("Small Dungeon", 0, {
 		if (towns[this.townNum][this.varName + "LoopCounter"] >= 42) unlockStory("clearSDungeon"),
 	};
 		
-function finishDungeon(dungeonNum, floorNum) {
     const floor = dungeons[dungeonNum][floorNum];
     if (!floor) {
         return false;
-    }
     floor.completed++;
     const rand = Math.random();
     if (rand <= floor.ssChance) {
@@ -1302,8 +1300,6 @@ function finishDungeon(dungeonNum, floorNum) {
         return true;
     }
     return false;
-}
-
 
 Action.BuySupplies = new Action("Buy Supplies", {
     type: "normal",
@@ -1638,7 +1634,6 @@ Action.GatherHerbs = new Action("Gather Herbs", {
             case 1:
                 return towns[1][`checked${this.varName}`] >= 1;
 			case 2:
-				return false; //TODO: not sure what the second story would be
         }
         return false;
     },
